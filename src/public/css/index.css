@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.add-prod {
+	margin: 1rem 0;
+}
+
+.add-prod div {
+	margin: 0.5rem 0;
+}
+
+.add-prod div label input {
+	width: 100%;
+	margin: 0.2rem 0;
+	padding: 0.4rem;
+}
+
+.add-prod button {
+	padding: 0.4rem;
+	cursor: pointer;
+}
+
+.cart li {
+	list-style: none;
+}
+
+.btn-quantity-inc,
+.btn-quantity-dec {
+	padding: 0.4rem 0.8rem;
+	cursor: pointer;
+}
+
+.form-container {
+	max-width: 400px;
+	margin-inline: auto;
+	padding: 1rem;
+}
+
+.form-container p {
+	margin: 0.4rem 0;
+	font-size: 0.8rem;
+}
+
+.form-container a {
+	color: #000;
+	text-decoration: none;
+}
+
+label,
+input:not([type='checkbox']) {
+	display: block;
+	width: 100%;
+	margin: 0.4rem 0;
+}
+
+input {
+	padding: 0.4rem;
+}
+
+.btn-submit {
+	margin: 0.4rem 0;
+	padding: 0.2rem 0.4rem;
+	cursor: pointer;
+}

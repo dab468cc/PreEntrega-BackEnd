@@ -1,0 +1,27 @@
+{{#if cart}}
+    <h1 class='cart-id' data-cart={{ cart._id }}>Cart {{ cart._id }}</h1>
+    <ul class='cart'>
+        {{#each cart.products}}
+            <li>
+                <input class='prod-id' type="hidden" name={{ this._id }}>
+                <h2>Product: {{ this.product.title }}</h2>
+                <p>Description: {{ this.product.description }}</p>
+                <p>Category: {{ this.product.category }}</p>
+                <p>Price: ${{ this.product.price }}</p>
+                <p>Stock: {{this.product.stock }}</p>
+                <div>quantity: <button class='btn-quantity-dec' data-prodid={{ this._id }}>-</button>
+                    {{ this.quantity }}
+                    <button class='btn-quantity-inc' data-prodid={{ this._id }}>+</button>
+                </div>
+                <div>
+
+
+                </div>
+            </li>
+        {{/each}}
+    </ul>
+{{else}}
+    <strong>[!] Cart empty!!</strong>
+{{/if}}
+
+<script src="/js/cart.js"></script>

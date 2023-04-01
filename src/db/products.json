@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Mayonesa",
+    "description": "Descripción",
+    "category": "Categoría",
+    "price": "111",
+    "code": "222",
+    "stock": "333"
+  },
+  {
+    "id": 2,
+    "title": "Helado",
+    "description": "Descripción",
+    "category": "Categoría",
+    "price": "111",
+    "code": "222",
+    "stock": "333"
+  },
+  {
+    "id": 3,
+    "title": "Cacao",
+    "description": "Descripción",
+    "category": "Categoría",
+    "price": "111",
+    "code": "222",
+    "stock": "333"
+  },
+  {
+    "id": 4,
+    "title": "Televisión",
+    "description": "Descripción",
+    "category": "Categoría",
+    "price": "111",
+    "code": "222",
+    "stock": "333"
+  },
+  {
+    "id": 5,
+    "title": "Anana",
+    "description": "Descripción",
+    "category": "Fruta",
+    "price": "100",
+    "code": "1",
+    "stock": "1000"
+  }
+]

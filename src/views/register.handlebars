@@ -1,0 +1,24 @@
+<div class='form-container'>
+	<h2>Sign Up</h2>
+	<form action='/register' method='post'>
+		<div>
+			<label for='userName'>User Name</label>
+			<input type='text' name='username' id='username' />
+		</div>
+		<div>
+			<label for='email'>Email</label>
+			<input type='email' name='email' id='email' />
+		</div>
+		<div>
+			<label for='password'>Password</label>
+			<input type='password' name='password' id='password' />
+		</div>
+		<div>
+			<label for='admin'>Admin?</label>
+			<input type='checkbox' name='rol' value='admin' id='admin' />
+		</div>
+		<button class='btn-submit' type='submit'>Sign Up</button>
+	</form>
+	<p>Are you already registered?</p>
+	<a href='/login'>Log in</a>
+</div>
